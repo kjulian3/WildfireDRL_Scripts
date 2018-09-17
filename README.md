@@ -12,3 +12,10 @@ and an object to read and evaluated trained network HDF5 files from Keras
 * **AircraftModel.py**: Represents the aircraft state, dynamics, and observation model
 * **Filters.py**: Describes the EKF and particle filter approachs for filtering noisy camera observations
 * **WildfireModels.py**: Contains methods for a stochastic wildfire model
+
+### Prerequisites
+These files use python with the following dependencies:
+* **numpy**
+* **math**
+* **Theano**
+* **Keras** (using the Theano backend)
